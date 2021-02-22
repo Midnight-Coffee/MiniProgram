@@ -1,0 +1,20 @@
+
+  <view bind:tap="onTap" class="post-container">
+		<view class="post-author-date">
+			<image class="post-author" src="{{res.avatar}}"></image>
+			<text class="post-date">{{res.date}}</text>
+		</view>
+
+		<text class="post-title">{{res.title}}</text>
+
+		<image class="post-image" src="{{res.imgSrc}}"></image>
+
+		<text class="post-content">{{res.content}}</text>
+
+		<view class="post-like">
+			<l-icon class="post-like-image" color="#666" size="28" name="favor" />
+			<text class="post-like-font">{{res.collection}}</text>
+			<l-icon class="post-like-image" color="#666" size="32" name="eye" />
+			<text class="post-like-font">{{res.reading}}</text>
+		</view>
+	</view>
