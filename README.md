@@ -7,6 +7,6 @@
 # install dependencies
 npm install
 
-使用微信开发者工具打开
+# 使用微信开发者工具打开
 
 ```
